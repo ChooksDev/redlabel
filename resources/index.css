@@ -29,7 +29,7 @@ div {
 #left {
 	display: block;
 	width: 150px;
-	height: 240px;
+	height: 200px;
 	position: fixed;
 	top: 101px;
 	left: 60px;
@@ -67,7 +67,7 @@ div.nav {
 }
 
 #shop {
-	background-color: #B2A196;
+	background-color: #CCB8AA;
 }
 
 a.nav {
@@ -104,6 +104,7 @@ a.nav:hover {
 	margin-right:auto;
 	margin-left: auto;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #birds {

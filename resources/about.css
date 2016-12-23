@@ -3,6 +3,7 @@ body {
 	background-image: url("images/bg.png");
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Kanit', sans-serif;
 }
 
 div {
@@ -29,7 +30,7 @@ div {
 #left {
 	display: block;
 	width: 150px;
-	height: 240px;
+	height: 200px;
 	position: fixed;
 	top: 101px;
 	left: 60px;
@@ -67,7 +68,7 @@ div.nav {
 }
 
 #shop {
-	background-color: #B2A196;
+	background-color: #CCB8AA;
 }
 
 a.nav {
@@ -98,12 +99,13 @@ a.nav:hover {
 #content {
 	background-color: #FFE7CC;
 	border: 3px solid black;
-	height: 700px;
+	height: 1730px;
 	width: 700px;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 #aboutlogo {
@@ -134,6 +136,24 @@ p {
 	top: -20px;	
 }
 
+h3 {
+	position: relative;
+	top: -30px;
+	color: #891A28;
+}
+
+p.goal {
+	top: -40px;
+	margin-bottom: -15px;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -10px;
+	font-weight: 500;
+}
 /*#container {
 	margin: auto;
 }	

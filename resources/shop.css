@@ -3,6 +3,7 @@ body {
 	background-image: url("images/bg.png");
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Kanit';
 }
 
 div {
@@ -98,8 +99,8 @@ a.nav:hover {
 #content {
 	background-color: #FFE7CC;
 	border: 3px solid black;
-	height: 1150px;
-	width: 500px;
+	height: 1000px;
+	width: 700px;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
@@ -113,57 +114,52 @@ a.nav:hover {
 }
 
 h1 {
+	font-family: 'Kanit', sans-serif;
+	font-size: 60px;
 	padding: 0px;
 	margin: 0px;
-	font-size: 50px;
-	color: #C6202C;
-	font-family: 'Kanit', sans-serif;
-	position: relative;
-	color: #891A28;
-	text-decoration: underline;
-}	
+}
 
-h2 {
-	padding: 0px;
-	margin: 0px;
-	font-size: 40px;
-	color: #C6202C;
-	font-family: 'Kanit', sans-serif;
-	position: relative;
-	top: -10px;
-}	
-
-h3 {
-	padding: 0px;
-	margin: 0px;
-	color: #C6202C;
-	font-family: 'Kanit', sans-serif;
-	position: relative;
-	top: -20px;
-}	
-
-p {
-	font-family: 'Kanit', sans-serif;
-	font-weight: normal;
-	padding: 0px;
+div.shirt {
+	width: 200px;
+	height: 250px;
+	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	width: 650px;
-	position: relative;
-	top: -20px;	
+	padding-right: 7px;
+	padding-left: 7px;
 }
 
-img.cover {
-	width: 300px;
-	outline: 2px solid black;
+img.shirt {
+	display: inline-block;
+	width: 200px;
+}
+
+div.hat {
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+img.hat {
+	display: inline-block;
+	width: 250px;
+	margin-bottom: -30px;
+	margin-top: -60px;
+}
+
+h3 {
 	position: relative;
 	top: -10px;
 }
 
-iframe {
-	padding-bottom: 10px;
+h4 {
+	position: relative;
+	top: -30px;
 }
 
 /*#container {
